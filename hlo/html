@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Passwordless Authenticator with Email OTP Code</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Login</h1>
+    <input type="email" id="email" placeholder="Enter your email address">
+    <button onclick="sendOTP()">Send OTP</button>
+    <input type="number" id="otp" placeholder="Enter OTP">
+    <button onclick="verifyOTP()">Verify OTP</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
